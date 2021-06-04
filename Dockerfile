@@ -1,7 +1,7 @@
 FROM nginx
 EXPOSE 80 443
-COPY images/ /usr/share/nginx/html/
-COPY styles/ /usr/share/nginx/html/
+COPY images/ /usr/share/nginx/html
+COPY styles/ /usr/share/nginx/html
 COPY CODE_OF_CONDUCT.md /usr/share/nginx/html/
 COPY LICENSE /usr/share/nginx/html/
 COPY README.md /usr/share/nginx/html/
