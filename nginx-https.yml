@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: sunilkumarchandru/nginx:1.5
+        image: sunilkumarchandru/nginx:latest
         ports:
         - containerPort: 80
         - containerPort: 443
