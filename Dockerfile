@@ -1,5 +1,6 @@
 FROM nginx
 EXPOSE 80 443
+COPY . /usr/share/nginx/html/
 COPY images/ /usr/share/nginx/html
 COPY styles/ /usr/share/nginx/html
 COPY CODE_OF_CONDUCT.md /usr/share/nginx/html/
