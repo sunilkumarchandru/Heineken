@@ -29,12 +29,12 @@ spec:
   - name: http
     port: 80
     protocol: TCP
-    nodePort: 31033
+#    nodePort: 31033
     targetPort: 80
   - name: https
     port: 443
     protocol: TCP
-    nodePort: 31036
+#    nodePort: 31036
     targetPort: 443
   selector:
     app: nginx
